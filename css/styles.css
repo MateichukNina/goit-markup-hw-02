@@ -6,9 +6,43 @@ a {
     text-decoration: none;
 }
 
-body {
-    font-family: "Roboto";
+li {
+    background-color: white;
+}
+
+h2 {
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    color: #2E2F42;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
     color: #434455;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    position: relative;
+    width: 1440px;
+    height: 2590px;
+
+    background: #FFFFFF;
 }
 
 
@@ -26,16 +60,12 @@ body {
 }
 
 .logo {
-    width: 44px;
-    height: 24px;
-    font-style: normal;
+    font-family: "Raleway";
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     /* identical to box height, or 133% */
 
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -43,29 +73,17 @@ body {
 
     color: #4D5AE5;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-#logo {
-    font-family: "Raleway";
-}
+
 
 .logo-studio {
-    width: 71px;
-    height: 24px;
-    font-style: normal;
+    font-family: "Raleway";
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     /* identical to box height, or 133% */
 
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -73,38 +91,41 @@ body {
 
     color: #2E2F42;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .nav a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+
 }
 
 
 
 .contacts a {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-a:hover {
+.contacts a:hover {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-a:focus {
+.contacts a:focus {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #4D5AE5;
 }
 
@@ -113,29 +134,54 @@ a:focus {
     background: #F4F4FD;
     /* CORNFLOWER */
 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 
     color: #4D5AE5;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-
     cursor: pointer;
 }
 
 .btn:hover {
-    color:#2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .servise {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .servise-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -151,50 +197,51 @@ a:focus {
     background: #2E2F42;
 }
 
-.btn-main {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
+.section{
+    background: #F4F4FD;
+}
 
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    display: flex;
-    align-items: center;
+.team {
+    background: #FFFFFF;
+}
+
+.btn-main {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
     letter-spacing: 0.04em;
+
     color: #FFFFFF;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
+    cursor: pointer;
 }
 
 .btn-main:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.04em;
     color: #434455;
+    cursor: pointer;
 }
 
 .btn-main:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.04em;
     color: #4D5AE5;
+    cursor: pointer;
 }
 
 .text-main {
-    position: absolute;
-    width: 494px;
-    height: 120px;
-    left: 473px;
-    top: 260px;
 
-    /* Header 1 */
-
-
-    font-style: normal;
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     /* or 107% */
 
     text-align: center;
@@ -205,15 +252,9 @@ a:focus {
 }
 
 .quality {
-    width: 264px;
-    height: 24px;
 
-    /* Header 3 */
-
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     /* identical to box height, or 120% */
 
     letter-spacing: 0.02em;
@@ -221,18 +262,17 @@ a:focus {
     /* NAVY BLUE */
 
     color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .quality-description {
-    width: 264px;
-    height: 72px;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
     color: #434455;
 }
 
@@ -240,11 +280,14 @@ a:focus {
 /* Footer */
 
 .footer-text {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    /* or 150% */
+
     letter-spacing: 0.02em;
+
+    /* CORNFLOWER */
+
     color: #E7E9FC;
-    background-color: #2E2F42;
 }
